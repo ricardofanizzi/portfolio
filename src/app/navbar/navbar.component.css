@@ -1,0 +1,29 @@
+.navbar {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.842);
+    border-bottom: 1px solid rgb(41, 41, 41);
+}
+.nav-item .editbtn-main {
+    width: 120px;
+    height: 40px;
+    margin: 0 1vh;
+    color: rgb(62, 143, 209);
+    font-size: 15px;
+    transition: .5s;
+}
+.nav-item .editbtn-main:hover {
+    color:rgb(23, 54, 80);
+    font-size: 17px;
+}
+.logo{
+    cursor:pointer;
+}
+.logo span{
+    font-size: 60px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(62, 143, 209);
+    border-radius: 10%;
+    padding: 5%;
+
+}

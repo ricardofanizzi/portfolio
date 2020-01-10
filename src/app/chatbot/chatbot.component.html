@@ -1,0 +1,46 @@
+<div class="box">
+    <section class="livebox">
+        <button (click)="showChat()" data-aos="fade-up-left" type="button" class="chatbox">
+            <i class="fas fa-comment-dots fa-flip-horizontal pl-1"></i>
+            <span>Chatbot</span>
+        </button>
+        <div [ngClass]="{show : chat}" class="dropchat">
+            <div class="card border-0">
+                <div class="card-header d-flex align-items-center justify-content-between">
+                    <span class="">
+                        Chat with me?
+                    </span>
+                </div>
+                <div class="card-body">
+                    <div class="list">
+                        <img class="chat-avater" src="./img/avater.png" alt="">
+                        <div class="chat-content">
+                            <p>Hi! How can i help you?</p>
+                            <span>Mon 09, 2019</span>
+                        </div>
+                    </div>
+                    <div class="list revange">
+                        <img class="chat-avater" src="./img/avater.png" alt="">
+                        <div class="chat-content">
+                            <p>Hello! I'm looking for a information</p>
+                            <span>Mon 09, 2019</span>
+                        </div>
+                    </div>
+                    <div class="list">
+                        <img class="chat-avater" src="./img/avater.png" alt="">
+                        <div class="chat-content">
+                            <p>Sure! Check out the Website </p>
+                            <span>Mon 09, 2019</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-footer p-0">
+                    <form action="#" class="typer">
+                        <input type="text" placeholder="Write a Message...">
+                        <span type="submit"><i class="far fa-paper-plane"></i></span>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>

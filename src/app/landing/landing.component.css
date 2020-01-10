@@ -1,0 +1,19 @@
+.landing{
+    min-height: 181vh;
+}
+.hero{
+    min-height: 40vh;
+}
+.tecnologies{
+    min-height: 20vh;
+    background-color: rgb(163, 163, 163);
+    overflow: hidden;
+    display:flex;
+    padding:1vh;
+    font-family: 'Poppins', sans-serif;
+}
+.tecnologies img{
+    width: 70px;
+    height: auto;
+    margin-left: 5vh;
+}

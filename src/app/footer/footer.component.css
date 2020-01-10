@@ -1,0 +1,37 @@
+li, a{
+    list-style: none;
+    text-decoration: none;
+    cursor: pointer;
+}
+.footer{
+    min-height: 12vh;
+    border-top: 1px solid rgb(41, 41, 41);
+    padding-top: 2vh;
+    background-color: black;
+}
+.information{
+    width: 70%;
+    margin: 0 auto;
+}
+.aboutme h1{
+    font-size:35px;
+    font-family: 'Oswald', sans-serif;
+    color:rgb(160, 160, 160);
+}
+.aboutme span{
+    color:rgb(109, 109, 109);
+    font-size: 13px;
+}
+
+.socials, .menu{
+    color:rgb(62, 143, 209);
+    font-size: 13px;
+}
+.socials li:hover, .menu li:hover{
+    color:rgb(23, 54, 80);
+    transition:.5s;
+}
+.socials span, .menu span{
+    color:rgb(109, 109, 109);
+    font-size: 20px;
+}
