@@ -4,5 +4,18 @@
     font-family: 'Poppins', sans-serif;
 }
 body{
-    background-color: rgb(0, 0, 0);
+    background-color: black;
+}
+.btn-main{
+    border: 1px solid rgb(62, 143, 209);
+    color: rgb(62, 143, 209);
+    box-shadow: rgba(131, 131, 131, 0.301) 3px 4px 6px;
+    transition: 1s !important;
+}
+.btn-main:hover{
+    color: rgb(62, 143, 209);
+    background-color: rgb(24, 24, 24);
+}
+.btn-main:focus{
+    box-shadow: rgba(143, 143, 143, 0.301) 3px 4px 6px;
 }

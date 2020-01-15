@@ -1,25 +1,25 @@
 .box{
     position: fixed;
     width: auto;
-    bottom: 10%;
-    right: 5%;
+    bottom: 15%;
+    right: 8%;
 }
 
 .livebox .chatbox{
   font-family: 'Oswald', sans-serif;
   position: relative;
-  color: rgb(156, 156, 156);
-  background-color: rgb(24, 24, 24);
+  color: rgb(197, 196, 196);
+  background-color: rgb(15, 15, 15);
   font-size: 25px;
   width: 90px;
   height: 90px;
-  border: 0;
+  border: 1px solid rgb(26, 26, 26);
   border-radius: 50%;
   outline: none;
   cursor: pointer;
   line-height: 20px;
   padding: 10px;
-  box-shadow: rgba(253, 253, 253, 0.301) 3px 4px 6px;
+  box-shadow: rgba(141, 141, 141, 0.301) 3px 4px 6px;
   opacity: 0.9;
   transition: .5s;
 }
@@ -41,8 +41,8 @@
     border-radius: 4px;
     cursor: text;
     display:none;
-    border: 1px solid rgb(65, 65, 65);
-    box-shadow: rgba(253, 253, 253, 0.301) 3px 4px 6px;
+    border: 1px solid rgb(46, 46, 46);
+    box-shadow: rgba(182, 182, 182, 0.301) 3px 4px 6px;
   }
   .livebox .dropchat.show {
     display: block;
@@ -51,14 +51,13 @@
   .livebox .dropchat .card-header {
     padding: 0.8rem 1rem;
     color: rgb(62, 143, 209);
-    background-color: rgb(24, 24, 24);
-    border-bottom: 1px rgb(105, 105, 105) solid;
-
+    background-color: rgb(5, 5, 5);
+    border-bottom: 1px rgb(63, 63, 63) solid;
   }
   .livebox .dropchat .card-body {
     height: 40vh;
     padding: 0.5rem;
-    background-color: rgb(24, 24, 24);
+    background-color: rgb(5, 5, 5);
     overflow:scroll;
   }
   .livebox .dropchat .card-header img {
@@ -76,7 +75,7 @@
     width: 100%;
     height: 100%;
     justify-content: flex-end;
-    background-color: rgb(24, 24, 24);
+    background-color: rgb(5, 5, 5);
   }
   .livebox .dropchat .typer input {
     width: 100%;
@@ -84,14 +83,14 @@
     padding: 1rem;
     border: 0;
     border-radius: 4px;
-    background-color: rgb(24, 24, 24);
+    background-color: rgb(5, 5, 5);
   }
   .livebox .dropchat .typer input:focus {
     outline: none;
-    color: rgb(189, 189, 189);
+    color: rgb(184, 184, 184);
   }
   .livebox .dropchat .typer span {
-      color: rgb(189, 189, 189);
+      color: rgb(165, 165, 165);
       font-size: 20px;
       position: absolute;
       padding: 0.5rem;
@@ -100,7 +99,7 @@
       transition: .5s;
   }
   .livebox .dropchat .typer span:hover {
-    color: rgb(141, 141, 141);
+    color: rgb(85, 85, 85);
     font-size: 23px;
 }
   
@@ -131,14 +130,15 @@
   }
   .livebox .dropchat .list .chat-content {
       width: 70%;
-      color: #333;
-      background: rgb(226, 226, 226);
+      color: rgb(90, 90, 90);
+      background: rgb(255, 255, 255);
       padding: 0.225rem 0.525rem;
       border-radius: .525rem;
-      box-shadow: 0 0 0.125rem .0125rem rgba(194, 194, 194, 0.726);
+      box-shadow: 0 0 0.125rem .0125rem rgba(117, 117, 117, 0.726);
+      opacity: .8;
   }
   .livebox .dropchat .list.revange .chat-content {
-      color: #fff;
+      color: rgb(37, 37, 37);
       background: rgb(62, 143, 209);
   }
   

@@ -8,11 +8,13 @@ import { Component, OnInit } from '@angular/core';
 export class ChatbotComponent implements OnInit {
   chat: boolean;
   constructor() {
-    this.chat = true;
+    this.chat = false;
   }
 
   ngOnInit() {
-
+    setTimeout(() => {
+      this.chat = false;
+    }, 3000);
   }
   showChat() {
     this.chat = !this.chat;
