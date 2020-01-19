@@ -1,0 +1,54 @@
+.profile{
+    padding: 2%;
+    border-top: 1px solid rgb(14, 14, 14);
+    background: -webkit-linear-gradient(90deg, rgba(0,0,0,1) 0%,rgb(11, 23, 34) 100%, rgb(0, 0, 0) 100%); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%,rgb(11, 23, 34) 100%, rgb(0, 0, 0) 100%);; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    -webkit-clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 80%);
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 80%);
+}
+.profile .container{
+    width: 70%;
+    margin: 3% auto;
+    margin-bottom: 10%;
+}
+
+.profile-image .image-box{
+    width: 80%;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 1px solid rgb(12, 12, 12);
+    box-shadow: rgba(53, 53, 53, 0.301) 3px 4px 6px;
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgb(8, 8, 8) 100%, rgb(0, 0, 0) 100%);
+    margin: 0 auto;
+    opacity: 1;
+}
+.profile-image img{
+    opacity: .4;
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.profile .information .title h3{
+    font-family: 'Oswald', sans-serif;
+    font-size:35px;
+    color: rgb(255, 255, 255);
+}
+.profile .information .biography{
+    color: rgb(129, 129, 129);
+}
+
+@media (max-width: 1000px){
+    .profile{
+        clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 90%);
+    }
+}
+@media (max-width: 430px){
+    .profile{
+        clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 90%);
+    }
+    .profile .container{
+        width: 90%;
+        margin: 3% auto;
+        margin-bottom: 20%;
+    }
+}

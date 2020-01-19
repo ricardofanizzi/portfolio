@@ -1,0 +1,89 @@
+.experiences{
+    width: 80%;
+    margin:0 auto 5% auto;
+    
+}
+
+.experiences .title h3{
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    margin-bottom: 5%;
+}
+
+.experiences .box-information{
+    width: 70%;
+    min-height: 6vh;
+    border-radius:2%;
+    box-shadow: rgba(63, 63, 63, 0.301) 2px 2px 3px;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 2%;
+}
+.experiences .left{
+    margin-left: 30%;
+    width: 70%;
+    flex-direction: row-reverse;
+}
+.experiences .box-information span{
+    color: rgb(182, 182, 182);
+    width: 75%;
+    font-size: 14px;
+}
+.experiences .box-information button{
+    width: 10em;
+    margin-left:5%;
+}
+.experiences .left button{
+    width: 10em;
+    margin-left:0%;
+    margin-right: 5%;
+}
+.experiences .card{
+    background-color: black;
+    color: rgb(141, 141, 141);
+}
+.experiences .card span{
+    background-color: black;
+    color: rgb(141, 141, 141);
+    font-size: 14px;
+}
+
+@media (max-width: 800px){
+    .experiences .box-information{
+        width: 100%;
+        margin-bottom:5%;
+    }
+    .experiences .left{
+        margin-left: 0%;
+        width: 100%;
+    }
+}
+@media (max-width: 430px){
+    .experiences{
+        width: 82%;
+        padding: 0;
+    }
+    .experiences .title h3{
+        margin-top:15%;
+        margin-bottom: 5%;
+    }
+    .experiences .box-information span{
+        color: rgb(109, 109, 109);
+        width: 100%;
+        font-size: 14px;
+    }
+    .experiences .title h3{
+        font-size: 40px;
+        margin-bottom: 10%;
+    }
+    .experiences .box-information{
+        margin-bottom: 8%;
+        flex-wrap: wrap;
+    }
+    .experiences .box-information button{
+        width: 10em;
+        margin:5%;
+    }
+}

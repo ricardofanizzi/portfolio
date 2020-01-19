@@ -1,0 +1,36 @@
+.hero{
+    min-height: 100vh;
+    padding-top: 5%;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.hero .title{
+    margin: 0 auto;
+    margin-top: 15%;
+    border: 3px solid rgb(248, 248, 248);
+    padding: 3%;
+    border-radius: 5%;
+    z-index: 99;
+}
+.hero .title h1{
+    font-family: 'Oswald', sans-serif;
+    font-size: 55px;
+    color: white;
+}
+.hero .title h4{
+    color: #2C6594;
+}
+@media(max-width: 450px){
+    .hero .title{
+        margin-top: 30%;
+    }
+    .hero .title h1{
+        font-family: 'Oswald', sans-serif;
+        font-size: 45px;
+        color: white;
+    }
+    .hero .title h4{
+        color: #2C6594;
+    }
+}

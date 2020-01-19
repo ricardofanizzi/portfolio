@@ -7,6 +7,12 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { LandingComponent } from './landing/landing.component';
 import { FooterComponent } from './footer/footer.component';
 import { ChatbotComponent } from './chatbot/chatbot.component';
+import { HeroComponent } from './hero/hero.component';
+import { AboutComponent } from './about/about.component';
+import { ExperiencesComponent } from './experiences/experiences.component';
+import { TecnologiesComponent } from './tecnologies/tecnologies.component';
+import { ProjectsComponent } from './projects/projects.component';
+import { ParticlesModule } from 'angular-particle';
 
 @NgModule({
   declarations: [
@@ -14,11 +20,17 @@ import { ChatbotComponent } from './chatbot/chatbot.component';
     NavbarComponent,
     LandingComponent,
     FooterComponent,
-    ChatbotComponent
+    ChatbotComponent,
+    HeroComponent,
+    AboutComponent,
+    ExperiencesComponent,
+    TecnologiesComponent,
+    ProjectsComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    ParticlesModule
   ],
   providers: [],
   bootstrap: [AppComponent]

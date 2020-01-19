@@ -3,12 +3,13 @@
     width: auto;
     bottom: 15%;
     right: 8%;
+    z-index: 9999;
 }
 
 .livebox .chatbox{
   font-family: 'Oswald', sans-serif;
   position: relative;
-  color: rgb(197, 196, 196);
+  color: rgb(255, 255, 255);
   background-color: rgb(15, 15, 15);
   font-size: 25px;
   width: 90px;
@@ -166,4 +167,15 @@
       transform: translate(0, 0%)
     }
   }
+  @media(max-width: 378px){
+    .livebox .dropchat {
+      width: 300px;
+    }
+    
+}
+@media(max-width: 321px){
+  .livebox .dropchat {
+    width: 270px;
+  }
+}
   

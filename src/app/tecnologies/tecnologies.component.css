@@ -1,0 +1,59 @@
+li, a{
+    text-decoration: none;
+    list-style: none;
+}
+.tecnologies{
+    background-color: rgb(5, 5, 5);
+    padding:2vh;
+    font-family: 'Poppins', sans-serif;
+    border-top: 1px solid rgb(10, 10, 10);
+}
+
+.tecnologies .skills ul{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    margin-left: 10%;
+    padding: 0;
+}
+.tecnologies .skills ul li{
+    width: 20%;
+    margin: .4% 0%;
+    color: rgb(121, 121, 121);
+}
+.tecnologies .skills img:hover{
+    opacity: 1;
+    transition: .5;
+}
+.tecnologies .skills img{
+    width: 40px;
+    height: 40px;
+    opacity: .7;
+}
+.tecnologies .skills-names ul li{
+    color: rgb(116, 116, 116);
+    display: block;
+    margin-left: 3%;
+}
+@media(max-width:780px){
+    .tecnologies .skills ul{
+        margin-left: 20%;
+    }
+    .tecnologies .skills ul li{
+        width: 30%;
+        margin: 1% 0%;
+        color: rgb(121, 121, 121);
+    }
+}
+@media(max-width:525px){
+    .tecnologies .skills ul{
+        margin-left: 10%;
+    }
+    .tecnologies .skills ul li{
+        width: 50%;
+        margin: 1% 0%;
+        color: rgb(121, 121, 121);
+    }
+}
+
+
