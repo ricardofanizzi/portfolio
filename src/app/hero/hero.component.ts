@@ -39,6 +39,12 @@ export class HeroComponent implements OnInit {
             width: 2
           }
         },
+        line_linked: {
+          opacity: .3,
+          move: {
+            speed: 2
+          }
+        }
       }
     };
   }
