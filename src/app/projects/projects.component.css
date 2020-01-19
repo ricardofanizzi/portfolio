@@ -57,6 +57,7 @@
     transform: perspective(600px) rotateY(30deg);
 }
 @media (max-width: 650px){
+
     .projects-box .cards{
         margin:10% auto;
     }
@@ -66,7 +67,7 @@
     }
     .projects-box{
         width:80%;
-        margin: 10% auto 0 auto;
+        margin: 20% auto 0 auto;
     }
     .card-box:nth-child(2n-1) .front{
         transform: perspective(600px) rotateY(30deg);
