@@ -36,7 +36,13 @@
 .profile .information .biography{
     color: rgb(129, 129, 129);
 }
-
+.profile .card{
+    background-color: transparent;
+    color: rgb(129, 129, 129);
+    padding: 0;
+    padding-top: 4%;
+    margin: 0;
+}
 @media (max-width: 1000px){
     .profile{
         clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 90%);

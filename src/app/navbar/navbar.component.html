@@ -1,6 +1,6 @@
 <nav class="navbar navbar-dark navbar-expand-lg position-fixed">
     <div class="container">
-        <a class="logo">
+        <a [routerLink]="['/home']" class="logo">
             <span>rF</span>
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-4"
@@ -9,26 +9,26 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent-4">
             <ul class="navbar-nav ml-auto">
-                <li [routerLink]="['/about']" class="nav-item active mt-1">
-                    <a class="nav-link btn editbtn-main">
+                <li class="nav-item active mt-1">
+                    <a href="/home#hero" class="nav-link btn editbtn-main">
                         Home
                         <span class="sr-only">(current)</span>
                     </a>
                 </li>
                 <li class="nav-item active mt-1">
-                    <a [routerLink]="['about']" class="nav-link btn editbtn-main">
+                    <a href="/home#about" class="nav-link btn editbtn-main">
                         About me
                         <span class="sr-only">(current)</span>
                     </a>
                 </li>
                 <li class="nav-item active mt-1">
-                    <a class="nav-link btn editbtn-main">
+                    <a href="/home#experiences" class="nav-link btn editbtn-main">
                         Experiences
                         <span class="sr-only">(current)</span>
                     </a>
                 </li>
                 <li class="nav-item active mt-1">
-                    <a class="nav-link btn editbtn-main">
+                    <a href="/home#projects" class="nav-link btn editbtn-main">
                         Projects
                         <span class="sr-only">(current)</span>
                     </a>

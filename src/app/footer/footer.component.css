@@ -25,16 +25,17 @@ li, a{
     color:rgb(109, 109, 109);
     font-size: 13px;
 }
-.aboutme p{
-    color:rgb(109, 109, 109);
-    font-size: 13px;
+.aboutme a{
+    display: block;
+    color:rgb(62, 143, 209);
+    font-size: 14px;
 }
 
-.socials, .menu{
+.socials a, .menu a{
     color:rgb(62, 143, 209);
     font-size: 13px;
 }
-.socials li:hover, .menu li:hover{
+.socials li a:hover, .menu li a:hover{
     color:rgb(37, 90, 134);
     transition:.5s;
 }

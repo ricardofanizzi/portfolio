@@ -1,3 +1,7 @@
+a, li{
+ text-decoration: none;
+ list-style: none;
+}
 .projects{
     padding: 4%;
     border-top: 1px solid rgb(14, 14, 14);
@@ -7,7 +11,7 @@
 }
 .projects-box{
     width:80%;
-    margin: 5% auto 0 auto;
+    margin: 0% auto 0 auto;
 }
 
 .projects-box .title h3{
@@ -44,14 +48,26 @@
 .front .image{
     width: 230px;
     height: auto;
-    margin: 20% auto;
-    border: 1px solid rgb(46, 46, 46);
+    margin: 10% auto;
+    border: 1px solid rgb(26, 26, 26);
 }
 .front .project-name h3{
-    font-family: 'Oswald', sans-serif;
-    color: rgb(141, 141, 141);
+    font-family: 'Poppins', sans-serif;
+    color: rgb(175, 175, 175);
     text-align: center;
-    font-size: 40px;
+    font-size: 25px;
+}
+.front .project-skills{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5%;
+}
+.front .project-name span{
+    font-family: 'Poppins', sans-serif;
+    color: rgb(105, 105, 105);
+    text-align: center;
+    font-size: 14px;
+    margin-left:4%;
 }
 .card-box:hover .front{
     transform: perspective(600px) rotateY(30deg);
