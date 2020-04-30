@@ -23,7 +23,7 @@
     "angular-particle": "^1.0.4",
     "aos": "^3.0.0-beta.6",
     "bootstrap": "^4.4.1",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "ngx-particlesjs": "^2.0.1",
     "node-gyp": "^6.1.0",
     "particlesjs": "^2.2.3",
